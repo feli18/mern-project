@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="email"], input[type="password"], 
+input[type="text"], input[type="number"],
+input[type="tel"],
+textarea {
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+
+textarea{
+    height: 140px;
+}
+
+button {
+    @apply bg-gray-300;
+}
+
+button.primary {
+    @apply bg-primary p-2 w-full text-white rounded-2xl;
+}
+button.edit {
+    @apply bg-primary p-2 w-full text-white rounded-2xl;
+}
+.cancel-button {
+    background-color: transparent;/*  设置你想要的背景颜色 */
+    color: black; /* 设置文字颜色为白色，以提高可读性 */
+    /* 其他样式属性，如边框、圆角等，可以根据需要添加 */
+}

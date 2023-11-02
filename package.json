@@ -1,0 +1,11 @@
+{
+  "name": "mern-project-master",
+  "version": "1.0.0",
+  "description": "An e-commerce hotel/accomodation booking website based on the MERN Stack (MongoDB, Express.js, React.js, Node.js) </br> </br> The website is implemented with the following features: - User login/logout  - Buyers can browse for the available hotels at the homepage, plus making a booking. - Sellers can upload and manage the hotel room for sale.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
